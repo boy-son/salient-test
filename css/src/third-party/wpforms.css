@@ -1,0 +1,132 @@
+body div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form input[type],
+body div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form select {
+  border-radius: var(--nectar-border-radius);
+} 
+
+body div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form input:focus {
+  box-shadow: none;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+  color: #fff;
+  background-color: var(--nectar-accent-color);
+}
+
+#ajax-content-wrap .nectar-inline-subscribe-form form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-end;
+}
+
+.nectar-inline-subscribe-form.wpforms-container-full .wpforms-form .wpforms-submit-container,
+div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form .wpforms-field {
+  padding: 0;
+}
+
+
+body div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form input {
+  max-width: 100%;
+  padding: 1em;
+  height: auto;
+}
+
+body div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form input {
+  padding-right: 25%;
+}
+
+body .nectar-inline-subscribe-form.wpforms-container-full .wpforms-field-container {
+  width: 100%;
+  position: relative;
+}
+
+
+body .wpforms-confirmation-container-full {
+  border: 0;
+  background-color: var(--nectar-accent-color);
+}
+
+body .wpforms-confirmation-container-full p {
+  color: #fff;
+}
+
+/* absolute labels/errors */
+div.wpforms-container-full.nectar-inline-subscribe-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form .wpforms-field-label {
+  position: absolute;
+  transform: translateY(-130%);
+}
+
+div.wpforms-container-full.nectar-inline-subscribe-form .wpforms-form em.wpforms-error {
+  position: absolute;
+  top: 100%;
+  transform: translateY(10%);
+}
+
+/* submit button */
+.nectar-inline-subscribe-form.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  position: absolute;
+  width: auto;
+  right: 0;
+  height: 100%;
+  min-width: 25%;
+  clip-path: inset(6px round var(--nectar-border-radius));
+}
+
+html body .nectar-inline-subscribe-form.wpforms-container-full .wpforms-form .wpforms-submit-container button {
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  background-color: var(--nectar-accent-color);
+  color: #fff;
+  transform: none!important;
+}
+
+html body .nectar-inline-subscribe-form.wpforms-container-full .wpforms-form .wpforms-submit-container button:hover,
+html body .nectar-inline-subscribe-form.wpforms-container-full .wpforms-form .wpforms-submit-container button:active {
+  background: none;
+  background-color: var(--nectar-accent-color);
+}
+
+
+
+/* transparent coloring */
+#ajax-content-wrap .nectar-transparent-fields.wpforms-container-full .wpforms-form input[type] {
+  background-color: transparent;
+}
+
+.nectar-transparent-fields.wpforms-container-full .wpforms-form input[type] {
+  border: 1px solid currentColor;
+  box-shadow: none;
+}
+.nectar-transparent-fields.wpforms-container-full .wpforms-form input[type]:hover {
+  border-color: currentColor!important;
+}
+
+body .nectar-transparent-fields.wpforms-container-full .wpforms-form input[type] {
+  color: inherit;
+}
+
+.nectar-transparent-fields.wpforms-container-full .wpforms-form .wpforms-submit-container button {
+  backdrop-filter: blur(10px);
+}
+
+.dark .nectar-transparent-fields.wpforms-container-full .wpforms-form .wpforms-submit-container button {
+  background-color: rgba(0,0,0,0.2);
+  color: #000;
+} 
+.dark .nectar-transparent-fields.wpforms-container-full .wpforms-form .wpforms-submit-container button:hover {
+  color: #fff;
+} 
+.light .nectar-transparent-fields.wpforms-container-full .wpforms-form .wpforms-submit-container button {
+  background-color: rgba(255,255,255,0.15);
+  color: #fff;
+} 
+
+.light .nectar-transparent-fields.wpforms-container-full .wpforms-form .wpforms-submit-container button:hover {
+  background-color: rgba(255,255,255,0.3)!important;
+} 

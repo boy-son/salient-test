@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"settings": {
+		"appearanceTools": false,
+		"layout": {
+			"contentSize": "1300px"
+		}
+	},
+	"styles":{ 
+		"elements":{ 
+			"link":{ 
+				"typography":{ 
+					"textDecoration":false 
+				}
+			}
+		}
+	}
+}
